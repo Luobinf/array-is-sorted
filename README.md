@@ -1,5 +1,8 @@
 A small module to check if an Array is sorted.
 
+![workflow](https://github.com/Luobinf/array-is-sorted/actions/workflows/node.js.yml/badge.svg)
+
+
 ## Example
 ```JS
 let sorted = require('is-sorted')
