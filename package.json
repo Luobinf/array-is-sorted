@@ -1,5 +1,5 @@
 {
-  "name": "array-is-sorted",
+  "name": "array-is-sorted-1",
   "version": "1.0.0",
   "description": "A small module to check if an Array is sorted",
   "main": "index.js",
