@@ -4,7 +4,7 @@
   "description": "A small module to check if an Array is sorted",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha",
+    "test": "nyc --reporter=lcov mocha && codecov",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
@@ -19,6 +19,7 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.3.4",
+    "codecov": "^3.8.3",
     "coveralls": "^3.1.1",
     "mocha": "^9.1.3",
     "nyc": "^15.1.0"
