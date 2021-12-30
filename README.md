@@ -1,4 +1,4 @@
-## is-sorted
+## array-is-sorted-1
 
 A small module to check if an Array is sorted.
 
@@ -8,7 +8,7 @@ A small module to check if an Array is sorted.
 
 ## Example
 ```JS
-let sorted = require('is-sorted')
+let sorted = require('array-is-sorted-1')
 
 console.log(sorted([1, 2, 3]))
 // => true
